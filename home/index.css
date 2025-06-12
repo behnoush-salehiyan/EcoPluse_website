@@ -1,0 +1,365 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #032221;
+}
+nav img {
+  width: 250px;
+}
+nav ul {
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.introduce {
+  background-image: url(/img/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-fog-new-zealand.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 718px;
+  display: flex;
+
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 50px;
+}
+
+.introduce h1 {
+  font-size: 10rem;
+  color: white;
+  text-shadow: -5px 5px 10px #032221;
+}
+
+.introduce button {
+  width: 150px;
+  height: 50px;
+  background-color: rgba(240, 255, 240, 0.541);
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #032221;
+}
+
+h2 {
+  color: #2cc295;
+  /* margin: 25px; */
+  text-align: center;
+}
+
+.earthInfo {
+  background-image: url(/img/earth-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.card_style {
+  width: 315px;
+  background-color: #2cc2954d;
+  padding: 50px;
+  border-radius: 20px;
+  color: azure;
+}
+
+.card_style img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_fact {
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.facts {
+  width: 315px;
+  background-color: #2cc2954d;
+  padding: 20px;
+  border-radius: 20px;
+  color: azure;
+}
+
+.facts li {
+  font-size: 14px;
+}
+
+.facts > div {
+  display: flex;
+  justify-content: center;
+}
+
+.knowledge {
+  background-image: url(/img/didyou.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-top: 100px;
+}
+
+.factainer {
+  position: relative;
+}
+
+.fact {
+  width: 400px;
+  min-height: 350px;
+  background-color: #246044;
+  padding: 35px;
+  border-radius: 20px;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 90px;
+  top: 120px;
+}
+
+footer img {
+  width: 250px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .introduce h1 {
+    font-size: 7rem;
+  }
+  .earthInfo {
+    background-image: none !important;
+    height: fit-content !important;
+  }
+  .fact {
+    width: 300px;
+    min-height: 200px;
+    max-height: fit-content;
+    position: unset;
+    top: unset;
+    right: unset;
+  }
+  .knowledge {
+    background-image: none;
+    height: unset;
+    margin: 40px;
+  }
+  .factainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .introduce h1 {
+    font-size: 7rem;
+  }
+  .earthInfo {
+    background-image: none !important;
+    height: fit-content !important;
+  }
+  .fact {
+    width: 300px;
+    min-height: 200px;
+    max-height: fit-content;
+    position: unset;
+    top: unset;
+    right: unset;
+  }
+  .knowledge {
+    background-image: none;
+    height: unset;
+    margin: 40px;
+  }
+  .factainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  nav img {
+    width: 200px;
+  }
+  .introduce h1 {
+    font-size: 8rem;
+  }
+  .earthInfo {
+    background-image: none !important;
+    height: fit-content !important;
+  }
+  .fact {
+    width: 300px;
+    min-height: 200px;
+    max-height: fit-content;
+    position: unset;
+    top: unset;
+    right: unset;
+  }
+  .knowledge {
+    background-image: none;
+    height: unset;
+    margin: 40px;
+  }
+  .factainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  nav img {
+    width: 250px;
+  }
+  .introduce h1 {
+    font-size: 10rem;
+  }
+  .earthInfo {
+    background-image: none !important;
+    height: fit-content !important;
+  }
+  .fact {
+    width: 300px;
+    min-height: 200px;
+    max-height: fit-content;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+  }
+  .knowledge {
+    background-image: url(/img/didyou.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    height: unset;
+    margin: 40px;
+  }
+
+  .factainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav img {
+    width: 250px;
+  }
+  .introduce h1 {
+    font-size: 10rem;
+  }
+  .earthInfo {
+    background-image: url(/img/earth-2.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    min-height: 600px !important;
+  }
+  .fact {
+    width: 400px;
+    min-height: 350px;
+    background-color: #246044;
+    padding: 35px;
+    border-radius: 20px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+    top: 100px;
+  }
+  .knowledge {
+    background-image: url(/img/didyou.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-top: 100px;
+  }
+
+  .factainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  nav img {
+    width: 250px;
+  }
+  .introduce h1 {
+    font-size: 10rem;
+  }
+  .earthInfo {
+    background-image: url(/img/earth-2.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    min-height: 800px !important;
+  }
+  .fact {
+    width: 400px;
+    min-height: 350px;
+    background-color: #246044;
+    padding: 35px;
+    border-radius: 20px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+    top: 100px;
+  }
+  .knowledge {
+    background-image: url(/img/didyou.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-top: 100px;
+  }
+
+  .factainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
