@@ -191,3 +191,9 @@ async function enviromentNews() {
 enviromentNews();
 
 setInterval(enviromentNews, 60000);
+
+const joinBtn = document.querySelector(".join-botton");
+
+joinBtn.addEventListener("click", () => {
+  window.open("/EcoPluse_website/join/join.html", "_blank");
+});
