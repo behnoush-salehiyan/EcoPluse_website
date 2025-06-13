@@ -1,0 +1,66 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #032221;
+}
+nav img {
+  width: 250px;
+}
+nav ul {
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+.back_ground {
+  background-image: url(/img/natural-surface-with-peony-bush-foliage-copy-space-Recovered.png);
+  background-position: bottom;
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.back_ground h1 {
+  font-size: 8rem;
+  color: white;
+  text-shadow: -5px 5px 10px #032221;
+}
+
+h2 {
+  color: #2cc295;
+  margin: 25px;
+  text-align: center;
+}
+
+.card_style img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card_style {
+  width: 320px;
+
+  background-color: #2cc2954d;
+  padding: 50px;
+  border-radius: 20px;
+  color: azure;
+}
+
+footer img {
+  width: 250px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}

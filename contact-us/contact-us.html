@@ -10,8 +10,7 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./contact-us.css" />
   </head>
   <body>
     <header>
@@ -43,32 +42,66 @@
         </div>
       </nav>
     </header>
-
     <main>
-      <section class="introduce">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center"
-        >
-          <h1>EcoPulse</h1>
-          <span class="text-white fs-1 m-4">The Pulse of Nature</span>
-          <button class="join-botton">join us</button>
-        </div>
-      </section>
-
-      <section class="earthInfo">
-        <h2 class="fs-1">The Planet's Pulse</h2>
-        <div class="cards d-flex flex-wrap"></div>
-      </section>
+      <div
+        class="back_ground d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="text-white">contact-us</h1>
+      </div>
       <section>
-        <h2 class="my-5 my-xl-0 mb-xl-4">If We Don't Act Today...</h2>
-        <div class="card_container d-flex flex-wrap"></div>
-      </section>
-      <section class="knowledge">
-        <h2 class="mb-md-50px">Did You Know?</h2>
-        <div class="factainer container">
-          <div class="fact">
-            <h4 class="mb-3 display-5">fact of a day</h4>
-            <p id="sentence" class="fs-5"></p>
+        <div class="container mb-5">
+          <div class="my-5 pb-5">
+            <h2>Get in Touch with EcoPulse</h2>
+            <p class="text-white px-5 text-center">
+              We'd love to hear from you! Whether you have a question, a
+              suggestion, or you're interested in working with us — feel free to
+              reach out. Our team is here to connect, listen, and collaborate
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6 text-white px-5 text-center my-5">
+              <h4 class="text-success mb-4">Contact Information</h4>
+              <p><span>Email:</span> contact@ecopulse.com</p>
+              <p><span>Phone:</span> +98 21 1234 5678</p>
+              <p><span>Address:</span> Nature Street, Tehran, Iran</p>
+            </div>
+            <div class="col-12 col-lg-6 text-white px-5">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label"
+                  >subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                  placeholder="subject"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Example textarea</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-success mb-3">send</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -112,13 +145,12 @@
         <p class="text-center m-0">© 2025 EcoPluse – All rights reserved</p>
       </section>
     </footer>
-    <!-- bootstrap and js -->
+    <!-- boot strap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./contact-us.js"></script>
   </body>
 </html>
